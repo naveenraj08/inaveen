@@ -8,7 +8,10 @@ module.exports = {
     extend: {
       colors: {
         primary: "#7751EA",
-        about: "#374579"
+        about: "#374579",
+        facebook: "#3b5998",
+        linkedin: "#0A66C2",
+        instagram: "var(--inta-gradient)"
       }
     },
     fontFamily: {

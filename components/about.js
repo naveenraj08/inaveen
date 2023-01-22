@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutBackground from "../public/assets/about-bg.png";
+import AboutBackground from "../public/assets/about.png";
 import Image from 'next/image';
 import Link from 'next/link';
 

@@ -9,6 +9,17 @@
     font-family: "Rubik";
     @apply bg-white;
   }
+
+  :root {
+    --inta-gradient: linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+  }
 }
 
 @layer components {
@@ -50,6 +61,7 @@
 }
 .clay:hover {
   @apply bg-primary;
+  transform: scale(0.95) translate3d(0, 0, 0);
 }
 
 .clay:active {
@@ -81,6 +93,7 @@
 }
 .download-clay:hover {
   @apply bg-about;
+  transform: scale(0.95) translate3d(0, 0, 0);
 }
 
 .download-clay:active {
@@ -88,5 +101,98 @@
 }
 
 .download-clay:active {
+  transform: scale(0.95) translate3d(0, 0, 0);
+}
+/* Facebook Clay Button */
+
+.facebook-clay {
+  background: var(--clay-background, rgba(0, 0, 0, 0.005));
+  border-radius: var(--clay-border-radius, 32px);
+  box-shadow: var(--clay-shadow-outset, 8px 8px 16px 0 rgba(0, 0, 0, 0.25)),
+    inset var(--clay-shadow-inset-primary, -8px -8px 16px 0 rgba(0, 0, 0, 0.25)),
+    inset
+      var(--clay-shadow-inset-secondary, 8px 8px 16px 0 hsla(0, 0%, 100%, 0.2));
+}
+.facebook-clay {
+  --clay-background: theme(colors.facebook);
+  --clay-border-radius: 2rem;
+  --clay-shadow-outset: 4px 4px 8px 0 rgba(0, 0, 0, 0.3);
+  --clay-shadow-inset-primary: -8px -8px 8px 0 rgba(0, 0, 0, 0.2);
+  --clay-shadow-inset-secondary: 8px 8px 8px 0 hsla(0, 0%, 100%, 0.4);
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+}
+.facebook-clay:hover {
+  @apply bg-facebook;
+  transform: scale(0.95) translate3d(0, 0, 0);
+}
+
+.facebook-clay:active {
+  @apply bg-facebook;
+}
+
+.facebook-clay:active {
+  transform: scale(0.95) translate3d(0, 0, 0);
+}
+/* Instagram Clay Button */
+
+.instagram-clay {
+  background: var(--clay-background, rgba(0, 0, 0, 0.005));
+  border-radius: var(--clay-border-radius, 32px);
+  box-shadow: var(--clay-shadow-outset, 8px 8px 16px 0 rgba(0, 0, 0, 0.25)),
+    inset var(--clay-shadow-inset-primary, -8px -8px 16px 0 rgba(0, 0, 0, 0.25)),
+    inset
+      var(--clay-shadow-inset-secondary, 8px 8px 16px 0 hsla(0, 0%, 100%, 0.2));
+}
+.instagram-clay {
+  --clay-background: theme(colors.instagram);
+  --clay-border-radius: 2rem;
+  --clay-shadow-outset: 4px 4px 8px 0 rgba(0, 0, 0, 0.3);
+  --clay-shadow-inset-primary: -8px -8px 8px 0 rgba(0, 0, 0, 0.2);
+  --clay-shadow-inset-secondary: 8px 8px 8px 0 hsla(0, 0%, 100%, 0.4);
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+}
+.instagram-clay:hover {
+  @apply bg-instagram;
+  transform: scale(0.95) translate3d(0, 0, 0);
+}
+
+.instagram-clay:active {
+  @apply bg-instagram;
+}
+
+.instagram-clay:active {
+  transform: scale(0.95) translate3d(0, 0, 0);
+}
+/* Linkedin Clay Button */
+
+.linkedin-clay {
+  background: var(--clay-background, rgba(0, 0, 0, 0.005));
+  border-radius: var(--clay-border-radius, 32px);
+  box-shadow: var(--clay-shadow-outset, 8px 8px 16px 0 rgba(0, 0, 0, 0.25)),
+    inset var(--clay-shadow-inset-primary, -8px -8px 16px 0 rgba(0, 0, 0, 0.25)),
+    inset
+      var(--clay-shadow-inset-secondary, 8px 8px 16px 0 hsla(0, 0%, 100%, 0.2));
+}
+.linkedin-clay {
+  --clay-background: theme(colors.linkedin);
+  --clay-border-radius: 2rem;
+  --clay-shadow-outset: 4px 4px 8px 0 rgba(0, 0, 0, 0.3);
+  --clay-shadow-inset-primary: -8px -8px 8px 0 rgba(0, 0, 0, 0.2);
+  --clay-shadow-inset-secondary: 8px 8px 8px 0 hsla(0, 0%, 100%, 0.4);
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+}
+.linkedin-clay:hover {
+  @apply bg-linkedin;
+  transform: scale(0.95) translate3d(0, 0, 0);
+}
+
+.linkedin-clay:active {
+  @apply bg-linkedin;
+}
+
+.linkedin-clay:active {
   transform: scale(0.95) translate3d(0, 0, 0);
 }
