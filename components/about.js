@@ -7,7 +7,7 @@ export const About = () => {
     return (
 
         <div className='w-full'>
-            <div className='flex justify-between items-center h-screen gap-[100px] container px-6'>
+            <div className='flex justify-between items-center py-[80px] gap-[100px] container px-6'>
                 <div className='left-block block relative w-full -top-10 -left-24'>
                     <Image src={AboutBackground} width="800" alt='About Illustration' />
                 </div>

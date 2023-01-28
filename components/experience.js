@@ -5,19 +5,16 @@ import Link from 'next/link'
 export const Experience = () => {
     return (
         <div className='w-full'>
-            <div className='flex justify-between items-center h-screen gap-[100px] container px-6'>
+            <div className='flex justify-between items-center py-[80px] gap-[100px] container px-6'>
                 <div className='left-block block w-full'>
                     <div className='w-full'>
                         <div className="text-left content text-sm text-slate-500">
                             <h2 className='uppercase text-4xl mb-5 text-slate-900 font-semibold'>2+ Years of Experience</h2>
                             <p className='mb-5'>
-                                Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven
-                                midst their. Beast creepeth. Fish days.
+                                "It takes a lot of time to get experience, and once you have it you ought to go on using it."
                             </p>
-                            <p className='mb-8'>
-                                Is give may shall likeness made yielding spirit a itself together created after sea
-                                is in beast beginning signs open god you're gathering whose gathered cattle let.
-                                Creature whales fruit unto meat the life beginning all in under give two.
+                            <p className='mb-8 pr-5'>
+                                With my fine experience, I have developed many front-end components that met our Client's requirements in various sectors like E-commerce, Education, and Health care projects with the help of Web development languages.
                             </p>
 
                             {/* <div className='connect-with-me w-full flex justify-start items-center gap-5'>
