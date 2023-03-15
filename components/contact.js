@@ -19,19 +19,13 @@ export const Contact = () => {
     }
 
 
-    // const sendEmail = (e) => {
-    //     e.preventDefault();
-
-    //    
-    // };
-
     return (
         <div className='w-full'>
             <div className='flex flex-col justify-start items-center gap-[100px] container px-6 py-[80px]'>
                 <div className="content text-sm text-slate-500 max-w-[50%]">
                     <h2 className='uppercase text-4xl mb-5 text-center text-slate-900 font-semibold'>Contact</h2>
                     <p className='mb-5 text-center'>
-                        Each contact with a human being is so rare, so precious, one should presver it
+                        Each contact with a human being is so rare, so precious, one should preserve it
                     </p>
                     <form ref={form} onSubmit={handleFormSubmit} action='#' className="space-y-8 mt-10 w-full">
                         <div className="field">

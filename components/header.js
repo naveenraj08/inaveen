@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { NavLink } from './navlink'
 import { HumburgerMenu } from './mobile-menu';
+import { Logo } from './logo';
 
 export const Header = () => {
     const [Breakpoint, setBreakpoint] = useState(0);
@@ -32,7 +33,7 @@ export const Header = () => {
                 <div className="flex items-center justify-between py-6">
                     <div className="flex justify-start lg:w-0 lg:flex-1">
                         <Link href="/" className='text-lg text-slate-500'>
-                            [Logo]
+                            <Logo />
                         </Link>
                     </div>
                     <div className='space-x-5 flex justify-between items-center'>
