@@ -65,6 +65,14 @@
   transform: scale(0.95) translate3d(0, 0, 0);
 }
 
+.clay+.loader {
+  transform: translate3d(0, 0, 0);
+}
+
+.clay:hover+.loader {
+  transform: scale(0.95) translate3d(0, 0, 0);
+}
+
 .clay:active {
   @apply bg-primary;
 }
@@ -203,10 +211,4 @@
 
 .linkedin-clay:active {
   transform: scale(0.95) translate3d(0, 0, 0);
-}
-
-
-#logo path {
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 0;
 }
