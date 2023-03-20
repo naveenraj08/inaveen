@@ -1,23 +1,29 @@
-import Image from 'next/image'
-import React from 'react'
-import ExperiencePicture from "../public/assets/experience.png"
-import Link from 'next/link'
+import Image from "next/image";
+import React from "react";
+import ExperiencePicture from "../public/assets/experience.png";
+import Link from "next/link";
 export const Experience = () => {
-    return (
-        <div className='w-full'>
-            <div className='flex justify-between items-center py-[80px] gap-[100px] container px-6'>
-                <div className='left-block block w-full'>
-                    <div className='w-full'>
-                        <div className="text-left content text-sm text-slate-500">
-                            <h2 className='uppercase text-4xl mb-5 text-slate-900 font-semibold'>2+ Years of Experience</h2>
-                            <p className='mb-5'>
-                                "It takes a lot of time to get experience, and once you have it you ought to go on using it."
-                            </p>
-                            <p className='mb-8 pr-5'>
-                                With my fine experience, I have developed many front-end components that met our Client's requirements in various sectors like E-commerce, Education, and Health care projects with the help of Web development languages.
-                            </p>
+  return (
+    <div className="w-full">
+      <div className="flex flex-col justify-between items-center py-[80px] gap-[50px] container px-6 md:flex-row xl:gap-[100px]">
+        <div className="left-block block w-full">
+          <div className="w-full">
+            <div className="text-left content text-sm text-slate-500">
+              <h2 className="uppercase text-4xl mb-5 text-slate-900 font-semibold">
+                2+ Years of Experience
+              </h2>
+              <p className="mb-5">
+                "It takes a lot of time to get experience, and once you have it
+                you ought to go on using it."
+              </p>
+              <p className="mb-8 pr-5">
+                With my fine experience, I have developed many front-end
+                components that met our Client's requirements in various sectors
+                like E-commerce, Education, and Health care projects with the
+                help of Web development languages.
+              </p>
 
-                            {/* <div className='connect-with-me w-full flex justify-start items-center gap-5'>
+              {/* <div className='connect-with-me w-full flex justify-start items-center gap-5'>
 
                                 <Link href="#" role="link" className='inline-block px-4 py-4 text-sm uppercase text-white font-semibold !rounded-md transition-all duration-300 facebook-clay'>
                                     <span>
@@ -40,13 +46,13 @@ export const Experience = () => {
 
 
                             </div> */}
-                        </div>
-                    </div>
-                </div>
-                <div className='right-block block relative w-full'>
-                    <Image src={ExperiencePicture} alt='Experience of My Carrer' />
-                </div>
             </div>
+          </div>
         </div>
-    )
-}
+        <div className="right-block block relative w-full">
+          <Image src={ExperiencePicture} alt="Experience of My Carrer" />
+        </div>
+      </div>
+    </div>
+  );
+};
