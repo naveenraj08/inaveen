@@ -22,7 +22,7 @@ export const Logo = () => {
       <svg
         version="1.1"
         id="handWrittenSvgText"
-        classNameName="subtitle"
+        className="subtitle"
         width="150"
         height="50"
         viewBox="0 0 330 54.6"
