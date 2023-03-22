@@ -1,10 +1,10 @@
-import Head from 'next/head'
-import App from './_app'
-import { Hero } from '@/components/hero'
-import { About } from '@/components/about'
-import { Experience } from '@/components/experience'
-import { Service } from '@/components/services'
-import { Contact } from '@/components/contact'
+import Head from "next/head";
+import App from "./_app";
+import { Hero } from "@/components/hero";
+import { About } from "@/components/about";
+import { Experience } from "@/components/experience";
+import { Service } from "@/components/services";
+import { Contact } from "@/components/contact";
 
 export default function Home() {
   return (
@@ -21,7 +21,6 @@ export default function Home() {
       <Experience />
       <Service />
       <Contact />
-
     </>
-  )
+  );
 }
