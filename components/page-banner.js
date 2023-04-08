@@ -1,9 +1,16 @@
 import Link from "next/link";
 import React from "react";
+import pageBannerBackground from "../public/assets/page-banner.png";
 
 export const PageBanner = ({ pageTitle, currentPage }) => {
   return (
-    <section className="page__banner-container mb-10">
+    <section
+      className="page__banner-container mb-10"
+      style={{
+        background: `url(${pageBannerBackground.src}) no-repeat center`,
+        backgroundSize: "cover",
+      }}
+    >
       <div className="container px-6 min-h-[340px] flex justify-center items-center">
         <div>
           <h1 className="uppercase text-3xl mb-5 text-gray-200 font-semibold md:text-4xl">
