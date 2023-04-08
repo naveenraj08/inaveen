@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import Router from "next/router";
+
 import { NavLink } from "./navlink";
 import { HumburgerMenu } from "./mobile-menu";
 import { Logo } from "./logo";
@@ -24,7 +26,9 @@ export const Header = () => {
       setshowMobileMenu(false);
     }
 
-    // return () => mobileMenu;
+    Router.events.on("routeChangeComplete", (url) => {
+      setshowMobileMenu(false);
+    });
   }, [Breakpoint]);
 
   return (

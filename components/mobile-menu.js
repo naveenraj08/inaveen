@@ -85,8 +85,8 @@ export const HumburgerMenu = () => {
                                   gradientTransform="matrix(0.154, -0.988, 0.296, 0.046, 0.252, 1.106)"
                                   gradientUnits="objectBoundingBox"
                                 >
-                                  <stop offset="0" stop-color="#744fe4" />
-                                  <stop offset="1" stop-color="#263f69" />
+                                  <stop offset="0" stopColor="#744fe4" />
+                                  <stop offset="1" stopColor="#263f69" />
                                 </radialGradient>
                               </defs>
                               <path
@@ -114,7 +114,7 @@ export const HumburgerMenu = () => {
                               className="w-6 h-6"
                             >
                               <path
-                                stroke-strokeLinecap="round"
+                                strokeLinecap="round"
                                 strokeLinejoin="round"
                                 d="M6 18L18 6M6 6l12 12"
                               />
