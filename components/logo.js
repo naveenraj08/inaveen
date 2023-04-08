@@ -5,9 +5,9 @@ export const Logo = () => {
   const createAnime = () => {
     anime({
       targets: ".path",
-      loop: true,
+      loop: false,
       fill: "#2B4071",
-      direction: "alternate",
+      direction: "forward",
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: "easeInOutSine",
       duration: 6000,
