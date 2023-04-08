@@ -1,4 +1,5 @@
 import { Contact } from "@/components/contact";
+import { PageBanner } from "@/components/page-banner";
 import Head from "next/head";
 
 export default function () {
@@ -11,6 +12,7 @@ export default function () {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <PageBanner pageTitle="Connect With Me" currentPage="Contact" />
       <Contact />
     </>
   );

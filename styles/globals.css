@@ -226,3 +226,8 @@
   z-index: 9999;
   background-color: #fff;
 }
+
+.page__banner-container {
+  background: url(../public/assets/page-banner.png) no-repeat center;
+  background-size: cover;
+}

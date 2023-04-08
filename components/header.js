@@ -29,7 +29,7 @@ export const Header = () => {
     Router.events.on("routeChangeComplete", (url) => {
       setshowMobileMenu(false);
     });
-  }, [Breakpoint]);
+  }, [Breakpoint, showMobileMenu]);
 
   return (
     <div className="relative z-10">

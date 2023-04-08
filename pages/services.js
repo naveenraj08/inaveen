@@ -1,3 +1,4 @@
+import { PageBanner } from "@/components/page-banner";
 import { Service } from "@/components/services";
 import Head from "next/head";
 
@@ -11,6 +12,7 @@ export default function () {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <PageBanner pageTitle="What I Can Do" currentPage="Services" />
       <Service />
     </>
   );
