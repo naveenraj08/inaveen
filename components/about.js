@@ -29,7 +29,7 @@ export const About = () => {
             <Link
               href=""
               download
-              className="inline-block px-8 py-4 text-sm uppercase text-white font-semibold rounded-full transition-all duration-300 download-clay"
+              className="inline-block px-8 py-4 text-sm uppercase text-white font-medium rounded-full transition-all duration-300 download-clay"
             >
               <span>Download CV</span>
             </Link>

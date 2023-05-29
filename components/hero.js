@@ -13,7 +13,7 @@ export const Hero = () => {
                 <span>Hello</span>
                 <span className="strike"></span>
               </h3>
-              <h1 className="uppercase text-5xl mb-5 mt-3 text-slate-900 font-black md:text-6xl">
+              <h1 className="uppercase text-5xl mb-5 mt-3 text-slate-900 font-extrabold md:text-6xl">
                 I'm Naveen Raj
               </h1>
               <h5 className="uppercase text-2xl text-slate-700 font-medium">
@@ -24,7 +24,7 @@ export const Hero = () => {
                 <Link
                   href="#"
                   role="link"
-                  className="px-8 py-4 text-sm uppercase text-white font-semibold rounded-full transition-all duration-300 block clay"
+                  className="px-8 py-4 text-sm uppercase text-white font-medium rounded-full transition-all duration-300 block clay"
                 >
                   <span>Hire Me</span>
                 </Link>

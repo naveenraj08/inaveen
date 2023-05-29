@@ -22,7 +22,7 @@ export const ServiceCard = () => {
               </g>
             </svg>
           </div>
-          <h4 className="font-semibold uppercase my-5">Developing</h4>
+          <h4 className="font-medium uppercase my-5">Developing</h4>
           <p className="text-center text-sm text-gray-300">
             The function of Good Software is to make the complex appear to be
             Simple.
@@ -41,7 +41,7 @@ export const ServiceCard = () => {
               </g>
             </svg>
           </div>
-          <h4 className="font-semibold uppercase my-5">Optimization</h4>
+          <h4 className="font-medium uppercase my-5">Optimization</h4>
           <p className="text-center text-sm text-gray-300">
             It's important to look beyond rankings and rather ensure a website
             is usable for everyone.
@@ -60,7 +60,7 @@ export const ServiceCard = () => {
               </g>
             </svg>
           </div>
-          <h4 className="font-semibold uppercase my-5">RWD</h4>
+          <h4 className="font-medium uppercase my-5">RWD</h4>
           <p className="text-center text-sm text-gray-300">
             Responsive Web Design always plays important role whenever going to
             promote your website.
@@ -83,7 +83,7 @@ export const ServiceCard = () => {
               </g>
             </svg>
           </div>
-          <h4 className="font-semibold uppercase my-5">Web Design</h4>
+          <h4 className="font-medium uppercase my-5">Web Design</h4>
           <p className="text-center text-sm text-gray-300">
             Creativity involves breaking out of expected patterns in order to
             look at things in a different way.
