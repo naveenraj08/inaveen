@@ -4,9 +4,62 @@
 
 @layer base {
 
+
+
+  @font-face {
+    font-family: 'Rubik-regular';
+    src: url('../public/fonts/woff2/Rubik-Regular.woff2') format('woff2'),
+      url('../public/fonts/woff/Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Rubik-medium';
+    src: url('../public/fonts/woff2/Rubik-Medium.woff2') format('woff2'),
+      url('../public/fonts/woff/Rubik-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Rubik-semibold';
+    src: url('../public/fonts/woff2/Rubik-SemiBold.woff2') format('woff2'),
+      url('../public/fonts/woff/Rubik-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Rubik-bold';
+    src: url('../public/fonts/woff2/Rubik-Bold.woff2') format('woff2'),
+      url('../public/fonts/woff/Rubik-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Rubik-extrabold';
+    src: url('../public/fonts/woff2/Rubik-ExtraBold.woff2') format('woff2'),
+      url('../public/fonts/woff/Rubik-ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Rubik-black';
+    src: url('../public/fonts/woff2/Rubik-Black.woff2') format('woff2'),
+      url('../public/fonts/woff/Rubik-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
   html,
   body {
-    font-family: "Rubik";
+    font-size: 16px;
+    font-family: 'Rubik-regular', sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
     @apply bg-white;
   }
 
@@ -18,6 +71,8 @@
         #cc2366 75%,
         #bc1888 100%);
   }
+
+
 }
 
 @layer components {
