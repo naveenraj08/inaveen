@@ -281,3 +281,23 @@
   z-index: 9999;
   background-color: #fff;
 }
+
+
+#beautiful-copy {
+  stroke-dasharray: 500;
+  /* Set to the approximate length of the text path */
+  stroke-dashoffset: 500;
+  /* Start with the text invisible */
+  animation: drawText 5s linear both;
+}
+
+@keyframes drawText {
+  from {
+    stroke-dashoffset: 500;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+    /* Fully drawn text */
+  }
+}
