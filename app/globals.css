@@ -120,3 +120,43 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .hero-background {
+    background: radial-gradient(
+      circle at left bottom,
+      #0f2d20 0%,
+      #0d1e1a 30%,
+      #08161a 60%,
+      #061013 100%
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+}
+
+.brand-path {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation: drawBrand 5s linear both;
+}
+
+@keyframes drawBrand {
+  0% {
+    stroke-dashoffset: 500;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.section-about {
+  .title {
+    &:before {
+      content: "";
+      @apply w-4 h-4 rounded bg-[#00FF66];
+    }
+  }
+}
