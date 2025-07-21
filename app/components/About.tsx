@@ -4,7 +4,7 @@ import React from "react";
 
 export const About = () => {
   return (
-    <section className="py-20 px-20 my-10 bg-white section-about">
+    <section className="p-20 py-[100px] bg-white section">
       <div className="grid grid-cols-3 gap-5">
         <div className="col-span-1 flex flex-col h-[180px] justify-between items-start">
           <h2 className="text-black text-lg font-medium relative title inline-flex items-center gap-x-2 uppercase">

@@ -152,7 +152,7 @@
   }
 }
 
-.section-about {
+.section {
   .title {
     &:before {
       content: "";
