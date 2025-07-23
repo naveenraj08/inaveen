@@ -6,6 +6,9 @@ import { Project } from "./components/Project";
 import { Services } from "./components/Services";
 import { getBannerContent } from "./queries/getBannerContent";
 
+
+export const revalidate = 60;
+
 type BannerContentResponse = {
   heroBanner?: any;
 };
