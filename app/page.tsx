@@ -5,19 +5,26 @@ import { Navbar } from "./components/Navbar";
 import { Project } from "./components/Project";
 import { Services } from "./components/Services";
 import { getBannerContent } from "./queries/getBannerContent";
+import { getAboutContent } from "./queries/getAboutContent";
 
 
 export const revalidate = 60;
 
 type BannerContentResponse = {
   heroBanner?: any;
+  aboutMe?: any;
+
 };
 
 export default async function Home() {
   const data: BannerContentResponse = await graphQLClient.request(
     getBannerContent
   );
+  const aboutData: BannerContentResponse = await graphQLClient.request(
+    getAboutContent
+  );
   const banner = data?.heroBanner;
+  const aboutContent = aboutData?.aboutMe;
 
   return (
     <>
@@ -25,7 +32,7 @@ export default async function Home() {
         <Navbar />
         <main className="block">
           <HeroBanner data={banner} />
-          <About />
+          <About data={aboutContent} />
           <Services />
           <Project />
         </main>
