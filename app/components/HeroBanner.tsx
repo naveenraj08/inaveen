@@ -5,7 +5,7 @@ import { HeroDescription } from "./HeroDescription";
 type HeroBannerProps = {
   data: {
     title: string;
-    description: string;
+    description: any;
     heroStatsCollection: {
       items: Array<{
         label: string;
