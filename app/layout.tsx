@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   title: "inaveen",
   description:
     "Certified frontend developer with 4+ years of experience in React, Next.js, Magento 2, and performance optimization. Explore projects, skills, and career highlights.",
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#00FF66" },
-    { media: "(prefers-color-scheme: dark)", color: "#00FF66" },
-  ],
 };
+
+export const viewport: Viewport = {
+  themeColor: '#00FF66',
+}
 
 export default function RootLayout({
   children,
