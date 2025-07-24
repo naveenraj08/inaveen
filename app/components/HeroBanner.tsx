@@ -25,7 +25,7 @@ export const HeroBanner = ({ data }: HeroBannerProps) => {
   } = data;
 
   return (
-    <section className="min-h-screen w-full flex justify-center items-end pb-20">
+    <section className="hero-banner relative w-full flex justify-center items-end pb-20">
       <div className="hero-content relative z-10 container mx-auto px-20">
         <h1 className="text-[120px] text-gray-50 font-bold leading-[1.5] mb-10">
           {title}

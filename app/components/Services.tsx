@@ -3,7 +3,7 @@ import React from "react";
 
 export const Services = () => {
   return (
-    <section className="py-20 px-20 bg-white section">
+    <section className="py-20 pt-0 px-20 bg-white section">
       <div className="block">
         <h2 className="text-black text-lg font-medium relative title inline-flex items-center gap-x-2 uppercase">
           Services

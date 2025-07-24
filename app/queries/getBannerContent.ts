@@ -1,8 +1,8 @@
 import { gql } from "graphql-request";
 
 export const getBannerContent = gql`
-  query getBannerContent {
-    heroBanner(id: "3ZT4W9oZIRhXX6LJPSUoOq") {
+  query HeroBanner {
+    heroBanner(id: "6Le9zXnbdXZUm4IHRM8x6V") {
       title
       description {
         json

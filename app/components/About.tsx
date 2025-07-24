@@ -41,8 +41,8 @@ export const About = (data: AboutContentType) => {
 
 
   return (
-    <section className="p-20 py-[100px] bg-white section">
-      <div className="grid grid-cols-3 gap-5">
+    <section className="py-[100px] bg-white section">
+      <div className="grid grid-cols-3 gap-5 container mx-auto px-20">
         <div className="col-span-1 flex flex-col h-[180px] justify-between items-start">
           <h2 className="text-black text-lg font-medium relative title inline-flex items-center gap-x-2 uppercase">
             {title}

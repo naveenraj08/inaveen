@@ -2,7 +2,7 @@ import { gql } from "graphql-request";
 
 export const getAboutContent = gql`
     query getAboutContent {
-        aboutMe(id: "lmMRqbBHJbENZth9i2wZ2") {
+        aboutMe(id: "3L5atRqG1U5z4qi9OCLkN0") {
             title
             action
             link
@@ -11,4 +11,4 @@ export const getAboutContent = gql`
             }
         }
     }
-`;
+`; 
