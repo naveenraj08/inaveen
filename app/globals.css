@@ -152,6 +152,11 @@
   }
 }
 
+.hero-banner {
+  min-height: 640px;
+  max-height: 640px;
+}
+
 .section {
   .title {
     &:before {
