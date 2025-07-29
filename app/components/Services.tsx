@@ -27,20 +27,22 @@ export const Services = ({ data }: ServiceContentProps) => {
   } = data;
 
   return (
-    <section className="py-20 pt-0 px-20 bg-white section">
-      <div className="block">
-        <h2 className="text-black text-lg font-medium relative title inline-flex items-center gap-x-2 uppercase">
-          {title}
-        </h2>
-      </div>
+    <section className="py-20 pt-0 bg-white section">
+      <div className="container px-20 mx-auto">
+        <div className="block">
+          <h2 className="text-black text-lg font-medium relative title inline-flex items-center gap-x-2 uppercase">
+            {title}
+          </h2>
+        </div>
 
-      <ul className="grid grid-cols-3 gap-5 pt-10">
-        {
-          serviceListCollection?.items.map((item: ServiceItem, index) => (
-            <ServiceItem key={index} data={item} />
-          ))
-        }
-      </ul>
+        <ul className="grid grid-cols-3 gap-5 pt-10">
+          {
+            serviceListCollection?.items.map((item: ServiceItem, index) => (
+              <ServiceItem key={index} data={item} />
+            ))
+          }
+        </ul>
+      </div>
     </section>
   );
 };

@@ -20,7 +20,7 @@ export const ServiceItem = ({ data }: ServiceItemProp) => {
     return (
         <li>
             <MotionEffect key={id} slide={{ direction: 'down', }} fade zoom inView delay={0.5 + id * 0.1}>
-                <li className="bg-neutral-100 p-10 border-gray-200 rounded-xl">
+                <div className="bg-neutral-100 p-10 border-gray-200 rounded-xl">
                     <h3 className="text-black text-2xl flex gap-x-5 font-medium pb-6 mb-6 border-b-2 border-neutral-300">
                         <span>{id}</span>
                         <span>{serviceName}</span>
@@ -34,7 +34,7 @@ export const ServiceItem = ({ data }: ServiceItemProp) => {
                     >
                         {link}
                     </Link>
-                </li>
+                </div>
             </MotionEffect>
         </li>
     )
