@@ -10,6 +10,7 @@ const nextConfig: NextConfig = {
   images: {
     domains: [
       "www.credly.com",
+      "images.ctfassets.net",
     ],
   },
 };
