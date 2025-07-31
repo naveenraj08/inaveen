@@ -13,7 +13,7 @@ Welcome to my personal portfolio repository. This project showcases my skills, e
 - **Skills** – Technologies & tools I use daily
 - **Contact** – Easy ways to get in touch
 
----
+
 
 ## 🛠 Tech Stack
 
@@ -25,5 +25,3 @@ Welcome to my personal portfolio repository. This project showcases my skills, e
 
 **Other Tools:**  
 `Git` • `GitHub` • `VS Code` • `Vercel`
-
----
