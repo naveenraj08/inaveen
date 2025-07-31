@@ -29,7 +29,7 @@ export const HeroDescription = ({
     const desc = description?.json?.content[0]?.content;
 
     return (
-        <div className="text-white max-w-lg">
+        <div className="text-white w-full max-w-full lg:max-w-lg">
             <div className="text-base">
                 {
                     desc?.map((node, index) => {

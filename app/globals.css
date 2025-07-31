@@ -153,8 +153,7 @@
 }
 
 .hero-banner {
-  min-height: 640px;
-  max-height: 640px;
+  @apply min-h-[640px] max-h-[640px];
 }
 
 .section {

@@ -3,7 +3,7 @@ import React from "react";
 
 export const Navbar = () => {
   return (
-    <nav className="p-3 px-5 w-full max-w-max mx-auto rounded-full flex items-center gap-10 justify-between fixed top-3 left-1/2 -translate-x-1/2 z-50 bg-white/10 backdrop-blur-md border border-white/20 shadow-md">
+    <nav className="p-3 px-5 w-full max-w-[calc(100%-40px)] lg:max-w-max mx-auto rounded-full flex items-center gap-10 justify-between fixed top-3 left-1/2 -translate-x-1/2 z-50 bg-white/10 backdrop-blur-md border border-white/20 shadow-md">
       <div className="logo inline-block p-1">
         <Link
           href="/"
@@ -48,7 +48,7 @@ export const Navbar = () => {
         </Link>
       </div>
       <ul className="flex items-center gap-5">
-        <li className="inline-block">
+        {/* <li className="inline-block">
           <a href="/" className="text-white text-sm p-1">
             Home
           </a>
@@ -72,7 +72,7 @@ export const Navbar = () => {
           <a href="/contact" className="text-white text-sm p-1">
             Contact
           </a>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

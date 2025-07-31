@@ -25,14 +25,14 @@ export const HeroBanner = ({ data }: HeroBannerProps) => {
   } = data;
 
   return (
-    <section className="hero-banner relative w-full flex justify-center items-end pb-20">
-      <div className="hero-content relative z-10 container mx-auto px-20">
-        <h1 className="text-[120px] text-gray-50 font-bold leading-[1.5] mb-10">
+    <section className="hero-banner relative w-full flex justify-center items-end pb-10 lg:pb-20">
+      <div className="hero-content relative z-10 container mx-auto px-5 lg:px-10 xl:px-20">
+        <h1 className="text-5xl sm:text-6xl lg:text-[80px] xl:text-[120px] text-gray-50 font-bold leading-[1.5] mb-10">
           {title}
         </h1>
 
-        <div className="flex justify-between items-end gap-5">
-          <ul className="text-white w-full grid grid-cols-3 gap-5">
+        <div className="flex flex-col lg:flex-row justify-between items-end gap-5">
+          <ul className="text-white w-full max-w-full grid grid-cols-2 lg:grid-cols-3 gap-5">
             {items.map((item, idx) => (
               <HeroStats key={idx} label={item.label} value={item.value} />
             ))}

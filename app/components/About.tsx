@@ -41,17 +41,17 @@ export const About = (data: AboutContentType) => {
 
 
   return (
-    <section className="py-[100px] bg-white section">
-      <div className="grid grid-cols-3 gap-5 container mx-auto px-20">
-        <div className="col-span-1 flex flex-col h-[180px] justify-between items-start">
-          <h2 className="text-black text-lg font-medium relative title inline-flex items-center gap-x-2 uppercase">
+    <section className="py-10 xl:py-20 bg-white section">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 container mx-auto px-5 lg:px-10 xl:px-20">
+        <div className="col-span-1 flex flex-col lg:h-[180px] justify-between items-start">
+          <h2 className="text-black text-xl font-medium relative title inline-flex items-center gap-x-2 uppercase">
             {title}
           </h2>
 
           <RippleButton
             rippleClassName="bg-white/80"
             className={
-              "inline-flex h-12 text-sm font-medium items-center gap-x-8 mt-10 px-3 pl-5 py-4 bg-black text-white rounded-full hover:bg-black"
+              "hidden lg:inline-flex h-12 text-sm font-medium items-center gap-x-8 mt-10 px-3 pl-5 py-4 bg-black text-white rounded-full hover:bg-black"
             }
           >
             {action}
@@ -77,7 +77,7 @@ export const About = (data: AboutContentType) => {
           {
             aboutContent?.map((node, index) => {
               if (node?.nodeType === "text") {
-                return (<p className="text-xl text-black font-medium" key={index}>
+                return (<p className="lg:text-xl text-black font-medium" key={index}>
                   {node?.value}
                 </p>)
               }
