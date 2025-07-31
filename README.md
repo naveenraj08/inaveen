@@ -13,12 +13,13 @@ Welcome to my personal portfolio repository. This project showcases my skills, e
 - **Skills** – Technologies & tools I use daily
 - **Contact** – Easy ways to get in touch
 
-
-
 ## 🛠 Tech Stack
 
 **Frontend:**  
 `HTML5` • `JavaScript` • `TypeScript` • `React.js` • `Next.js` • `shadcn/ui` • `TailwindCSS`
+
+**CMS:**
+`Contentful CMS`
 
 **API:**  
 `GraphQL`
