@@ -1,13 +1,41 @@
+'use client';
+
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 export const Navbar = () => {
+
+  const [changeNav, setChangeNav] = useState<Boolean>(false);
+
+  useEffect(() => {
+    const handlePageScroll = () => {
+      if (window.scrollY > 580) {
+        if (changeNav) {
+          setChangeNav(false);
+        } else {
+          setChangeNav(true);
+        }
+      } else {
+        setChangeNav(false)
+      }
+    }
+
+    handlePageScroll();
+
+    window.addEventListener('scroll', handlePageScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handlePageScroll);
+    }
+  }, [])
+
+
   return (
-    <nav className="p-3 px-5 w-full max-w-[calc(100%-40px)] lg:max-w-max mx-auto rounded-full flex items-center gap-10 justify-between fixed top-3 left-1/2 -translate-x-1/2 z-[100] bg-white/10 backdrop-blur-md border border-white/20 shadow-md">
+    <nav className={`p-3 px-5 w-full max-w-[calc(100%-40px)] lg:max-w-max mx-auto rounded-full flex items-center justify-center fixed top-3 left-1/2 -translate-x-1/2 z-[100]  shadow-md ${changeNav ? 'backdrop-blur-[16px] backdrop-saturate-[180%] bg-white/75 rounded-[12px] border border-gray-300/30' : 'bg-white/10 backdrop-blur-md border border-white/20'}`}>
       <div className="logo inline-block p-1">
         <Link
           href="/"
-          className="inline-flex text-white items-center justify-center relative z-10"
+          className={`inline-flex items-center justify-center relative z-10 ${changeNav ? 'text-black' : 'text-white'}`}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

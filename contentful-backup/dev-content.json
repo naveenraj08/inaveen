@@ -1,0 +1,1721 @@
+{
+  "tags": [
+  ],
+  "entries": [
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ay751rnq5vnl"
+          }
+        },
+        "id": "6Le9zXnbdXZUm4IHRM8x6V",
+        "type": "Entry",
+        "createdAt": "2025-07-24T17:10:09.823Z",
+        "updatedAt": "2025-07-24T17:12:47.243Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2025-07-24T17:12:47.243Z",
+        "firstPublishedAt": "2025-07-24T17:12:47.243Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "heroBanner"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/ay751rnq5vnl/environments/dev/entries/6Le9zXnbdXZUm4IHRM8x6V"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Naveen Raj"
+        },
+        "description": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Hi, I'm Naveen Raj® — a ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://www.credly.com/badges/fda9d120-a86d-45e1-ab7d-a5ca54b69b0d/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "Certified Frontend Expert",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " passionate about building sleek, high-performance interfaces. I'm actively exploring fullstack development with a strong interest in AI integration and cloud technologies, aiming to create smart, scalable digital experiences.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "action": {
+          "en-US": "Let's Talk"
+        },
+        "heroStats": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4kSH3PQRyx0GAe55In6bH5"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1JxysO3H6Pu3p5N8xL01Y0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ay751rnq5vnl"
+          }
+        },
+        "id": "4kSH3PQRyx0GAe55In6bH5",
+        "type": "Entry",
+        "createdAt": "2025-07-24T17:11:17.311Z",
+        "updatedAt": "2025-07-24T17:13:00.938Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2025-07-24T17:13:00.938Z",
+        "firstPublishedAt": "2025-07-24T17:13:00.938Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "heroStats"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/ay751rnq5vnl/environments/dev/entries/4kSH3PQRyx0GAe55In6bH5"
+      },
+      "fields": {
+        "label": {
+          "en-US": "Years of Experience"
+        },
+        "value": {
+          "en-US": "4"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ay751rnq5vnl"
+          }
+        },
+        "id": "1JxysO3H6Pu3p5N8xL01Y0",
+        "type": "Entry",
+        "createdAt": "2025-07-24T17:12:23.250Z",
+        "updatedAt": "2025-07-24T17:13:00.879Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2025-07-24T17:13:00.879Z",
+        "firstPublishedAt": "2025-07-24T17:13:00.879Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "heroStats"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/ay751rnq5vnl/environments/dev/entries/1JxysO3H6Pu3p5N8xL01Y0"
+      },
+      "fields": {
+        "label": {
+          "en-US": "Successful Project"
+        },
+        "value": {
+          "en-US": "20"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ay751rnq5vnl"
+          }
+        },
+        "id": "3L5atRqG1U5z4qi9OCLkN0",
+        "type": "Entry",
+        "createdAt": "2025-07-24T17:32:10.317Z",
+        "updatedAt": "2025-07-25T05:10:34.582Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 10,
+        "publishedAt": "2025-07-25T05:10:34.582Z",
+        "firstPublishedAt": "2025-07-24T17:36:53.427Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 11,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "aboutMe"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/ay751rnq5vnl/environments/dev/entries/3L5atRqG1U5z4qi9OCLkN0"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Who Am I"
+        },
+        "action": {
+          "en-US": "Let's Talk"
+        },
+        "content": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "A Certified Frontend Developer based in India, passionate about building high - performance, visually compelling web experiences.I specialize in React.js and Next.js, creating sleek, scalable interfaces that blend design with functionality.Currently expanding into fullstack development, with a strong interest in AI integration and cloud technologies to shape the future of the web.®",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "link": {
+          "en-US": "https://www.linkedin.com/in/naveenraj08/"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ay751rnq5vnl"
+          }
+        },
+        "id": "4MnllxnWDfGsloxuWysvZr",
+        "type": "Entry",
+        "createdAt": "2025-07-25T06:30:04.593Z",
+        "updatedAt": "2025-07-25T06:46:36.296Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2025-07-25T06:46:36.296Z",
+        "firstPublishedAt": "2025-07-25T06:46:36.296Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "services"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/ay751rnq5vnl/environments/dev/entries/4MnllxnWDfGsloxuWysvZr"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Services I Offer"
+        },
+        "serviceList": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1xMtlMewRVeg7bE5fkKWyb"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "6mBAtZyfksFkyAALDYI6uz"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "3zvvatwv8eXdWCceabiIzU"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "2vGLHg0zi00uZasxMjpqaj"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "2urn6hOFieLD7etheuseHj"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "3Gatl1vVqAqqOvvXxoW342"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ay751rnq5vnl"
+          }
+        },
+        "id": "1xMtlMewRVeg7bE5fkKWyb",
+        "type": "Entry",
+        "createdAt": "2025-07-25T06:30:12.344Z",
+        "updatedAt": "2025-07-25T06:36:56.791Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2025-07-25T06:36:56.791Z",
+        "firstPublishedAt": "2025-07-25T06:36:56.791Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "serviceItem"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/ay751rnq5vnl/environments/dev/entries/1xMtlMewRVeg7bE5fkKWyb"
+      },
+      "fields": {
+        "id": {
+          "en-US": "01"
+        },
+        "serviceName": {
+          "en-US": "Responsive Website Development"
+        },
+        "serviceDescription": {
+          "en-US": "I build fully responsive websites that adapt beautifully to all screen sizes—desktop, tablet, and mobile. Your users get a consistent and optimized experience, no matter what device they’re on."
+        },
+        "link": {
+          "en-US": "Sample"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ay751rnq5vnl"
+          }
+        },
+        "id": "6mBAtZyfksFkyAALDYI6uz",
+        "type": "Entry",
+        "createdAt": "2025-07-25T06:37:06.547Z",
+        "updatedAt": "2025-07-25T06:37:35.101Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2025-07-25T06:37:35.101Z",
+        "firstPublishedAt": "2025-07-25T06:37:35.101Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "serviceItem"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/ay751rnq5vnl/environments/dev/entries/6mBAtZyfksFkyAALDYI6uz"
+      },
+      "fields": {
+        "id": {
+          "en-US": "02"
+        },
+        "serviceName": {
+          "en-US": "UI/UX Design to Code"
+        },
+        "serviceDescription": {
+          "en-US": "Have a Figma, Adobe XD, or Sketch design? I’ll turn it into a pixel-perfect, accessible interface using HTML, CSS (Tailwind/Sass), and JavaScript frameworks like React or Vue."
+        },
+        "link": {
+          "en-US": "Sample"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ay751rnq5vnl"
+          }
+        },
+        "id": "3zvvatwv8eXdWCceabiIzU",
+        "type": "Entry",
+        "createdAt": "2025-07-25T06:37:55.257Z",
+        "updatedAt": "2025-07-25T06:38:45.648Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2025-07-25T06:38:45.648Z",
+        "firstPublishedAt": "2025-07-25T06:38:45.648Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "serviceItem"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/ay751rnq5vnl/environments/dev/entries/3zvvatwv8eXdWCceabiIzU"
+      },
+      "fields": {
+        "id": {
+          "en-US": "03"
+        },
+        "serviceName": {
+          "en-US": "Single Page Applications (SPA)"
+        },
+        "serviceDescription": {
+          "en-US": "I develop fast, interactive SPAs using React.js, Next.js, or Vue.js with smooth routing, reusable components, and optimized performance for real-world use."
+        },
+        "link": {
+          "en-US": "Sample"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ay751rnq5vnl"
+          }
+        },
+        "id": "2vGLHg0zi00uZasxMjpqaj",
+        "type": "Entry",
+        "createdAt": "2025-07-25T06:40:07.469Z",
+        "updatedAt": "2025-07-25T06:41:13.448Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2025-07-25T06:41:13.448Z",
+        "firstPublishedAt": "2025-07-25T06:41:13.448Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "serviceItem"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/ay751rnq5vnl/environments/dev/entries/2vGLHg0zi00uZasxMjpqaj"
+      },
+      "fields": {
+        "id": {
+          "en-US": "04"
+        },
+        "serviceName": {
+          "en-US": "API Integration"
+        },
+        "serviceDescription": {
+          "en-US": "Whether it’s a RESTful API or GraphQL, I integrate dynamic data into your frontend—supporting login systems, dashboards, user profiles, CMS content, and more."
+        },
+        "link": {
+          "en-US": "Sample"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ay751rnq5vnl"
+          }
+        },
+        "id": "2urn6hOFieLD7etheuseHj",
+        "type": "Entry",
+        "createdAt": "2025-07-25T06:41:19.865Z",
+        "updatedAt": "2025-07-25T06:42:02.250Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2025-07-25T06:42:02.250Z",
+        "firstPublishedAt": "2025-07-25T06:42:02.250Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "serviceItem"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/ay751rnq5vnl/environments/dev/entries/2urn6hOFieLD7etheuseHj"
+      },
+      "fields": {
+        "id": {
+          "en-US": "05"
+        },
+        "serviceName": {
+          "en-US": "Performance Optimization"
+        },
+        "serviceDescription": {
+          "en-US": "I make sure your website loads fast and runs smoothly with best practices like code splitting, lazy loading, caching, and image optimization—boosting both SEO and user retention."
+        },
+        "link": {
+          "en-US": "Sample"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ay751rnq5vnl"
+          }
+        },
+        "id": "3Gatl1vVqAqqOvvXxoW342",
+        "type": "Entry",
+        "createdAt": "2025-07-25T06:42:15.388Z",
+        "updatedAt": "2025-07-25T06:46:31.833Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2025-07-25T06:46:31.833Z",
+        "firstPublishedAt": "2025-07-25T06:46:31.833Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "serviceItem"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/ay751rnq5vnl/environments/dev/entries/3Gatl1vVqAqqOvvXxoW342"
+      },
+      "fields": {
+        "id": {
+          "en-US": "06"
+        },
+        "serviceName": {
+          "en-US": "Cross-Browser & Device Compatibility"
+        },
+        "serviceDescription": {
+          "en-US": "I ensure consistent look and feel across Chrome, Firefox, Safari, and Edge—and compatibility with touch, retina, and high-resolution displays."
+        },
+        "link": {
+          "en-US": "Sample"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ay751rnq5vnl"
+          }
+        },
+        "id": "78ykm2DMFRJd90ivABW3oO",
+        "type": "Entry",
+        "createdAt": "2025-07-25T10:10:41.439Z",
+        "updatedAt": "2025-07-30T17:45:32.308Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 13,
+        "publishedAt": "2025-07-30T17:45:32.308Z",
+        "firstPublishedAt": "2025-07-25T10:50:21.495Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 14,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "projects"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/ay751rnq5vnl/environments/dev/entries/78ykm2DMFRJd90ivABW3oO"
+      },
+      "fields": {
+        "title": {
+          "en-US": "What I Built"
+        },
+        "projectList": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "56y4Yv8H7mgSLNB5mTxyMi"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "31yQSmwEVOMGQzw5I6Dgfn"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "2kUmBvLcuXL6jklmjG1vxx"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ay751rnq5vnl"
+          }
+        },
+        "id": "56y4Yv8H7mgSLNB5mTxyMi",
+        "type": "Entry",
+        "createdAt": "2025-07-25T10:11:15.640Z",
+        "updatedAt": "2025-07-29T19:03:19.600Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2025-07-29T19:03:19.600Z",
+        "firstPublishedAt": "2025-07-29T18:25:44.228Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "projectItem"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/ay751rnq5vnl/environments/dev/entries/56y4Yv8H7mgSLNB5mTxyMi"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Dormeo"
+        },
+        "sample": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "1G2otuziv7Z2YeomRRJzcE"
+            }
+          }
+        },
+        "link": {
+          "en-US": "https://www.dormeo.co.uk/"
+        },
+        "descriptions": {
+          "en-US": "Dormeo primarily sells mattresses and sleep-related products. This includes various types of mattresses like foam and hybrid models, as well as mattress toppers, pillows, and bedding accessories. "
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ay751rnq5vnl"
+          }
+        },
+        "id": "31yQSmwEVOMGQzw5I6Dgfn",
+        "type": "Entry",
+        "createdAt": "2025-07-30T17:09:54.111Z",
+        "updatedAt": "2025-07-30T17:13:17.513Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2025-07-30T17:13:17.513Z",
+        "firstPublishedAt": "2025-07-30T17:13:17.513Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "projectItem"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/ay751rnq5vnl/environments/dev/entries/31yQSmwEVOMGQzw5I6Dgfn"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Writer"
+        },
+        "sample": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "3V2McEpZ8wMQVdVUkdX2Kf"
+            }
+          }
+        },
+        "link": {
+          "en-US": "https://nextjs-fullstack-pink.vercel.app/"
+        },
+        "descriptions": {
+          "en-US": "An AI-powered blog application that intelligently generates, curates, and optimizes content to boost engagement, streamline publishing, and enhance reader experience."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ay751rnq5vnl"
+          }
+        },
+        "id": "2kUmBvLcuXL6jklmjG1vxx",
+        "type": "Entry",
+        "createdAt": "2025-07-30T17:43:54.302Z",
+        "updatedAt": "2025-07-30T17:45:27.069Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2025-07-30T17:45:27.069Z",
+        "firstPublishedAt": "2025-07-30T17:45:27.069Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "projectItem"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/ay751rnq5vnl/environments/dev/entries/2kUmBvLcuXL6jklmjG1vxx"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Vue Todo Note"
+        },
+        "sample": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "jkyS8UHh5WXTmLvb0bLhf"
+            }
+          }
+        },
+        "link": {
+          "en-US": "https://naveenraj08.github.io/vue-todo/"
+        },
+        "descriptions": {
+          "en-US": "A simple and efficient ToDo application built with Vue.js, enabling users to manage tasks with real-time updates, intuitive UI, and seamless state management."
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ay751rnq5vnl"
+          }
+        },
+        "id": "5eHmNRxtvpgk6R6tAHhfUX",
+        "type": "Asset",
+        "createdAt": "2025-07-25T10:49:10.259Z",
+        "updatedAt": "2025-07-29T18:14:10.342Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 13,
+        "publishedAt": "2025-07-29T18:14:10.342Z",
+        "firstPublishedAt": "2025-07-25T10:49:35.178Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 14,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/ay751rnq5vnl/environments/dev/assets/5eHmNRxtvpgk6R6tAHhfUX"
+      },
+      "fields": {
+        "title": {
+          "en-US": "image"
+        },
+        "description": {
+          "en-US": "Dormeo primarily sells mattresses, mattress toppers, and pillows, focusing on providing comfortable and supportive sleep solutions. They also offer bedding accessories like duvets and mattress protectors, with a strong emphasis on their patented Octaspring technology. "
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/ay751rnq5vnl/5eHmNRxtvpgk6R6tAHhfUX/0c807c819d504992e69cda67191ecbaa/dormeo.webp",
+            "details": {
+              "size": 98700,
+              "image": {
+                "width": 1895,
+                "height": 961
+              }
+            },
+            "fileName": "dormeo.webp",
+            "contentType": "image/webp"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ay751rnq5vnl"
+          }
+        },
+        "id": "1G2otuziv7Z2YeomRRJzcE",
+        "type": "Asset",
+        "createdAt": "2025-07-29T18:22:31.401Z",
+        "updatedAt": "2025-07-29T18:23:01.432Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2025-07-29T18:23:01.432Z",
+        "firstPublishedAt": "2025-07-29T18:23:01.432Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/ay751rnq5vnl/environments/dev/assets/1G2otuziv7Z2YeomRRJzcE"
+      },
+      "fields": {
+        "title": {
+          "en-US": "dormeo"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/ay751rnq5vnl/1G2otuziv7Z2YeomRRJzcE/57f78ac9e9272ebd9f9aa17411b20fc1/dormeo.webp",
+            "details": {
+              "size": 98700,
+              "image": {
+                "width": 1895,
+                "height": 961
+              }
+            },
+            "fileName": "dormeo.webp",
+            "contentType": "image/webp"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ay751rnq5vnl"
+          }
+        },
+        "id": "3V2McEpZ8wMQVdVUkdX2Kf",
+        "type": "Asset",
+        "createdAt": "2025-07-30T17:11:10.973Z",
+        "updatedAt": "2025-07-30T17:11:24.460Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2025-07-30T17:11:24.460Z",
+        "firstPublishedAt": "2025-07-30T17:11:24.460Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/ay751rnq5vnl/environments/dev/assets/3V2McEpZ8wMQVdVUkdX2Kf"
+      },
+      "fields": {
+        "title": {
+          "en-US": "image"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/ay751rnq5vnl/3V2McEpZ8wMQVdVUkdX2Kf/5efa8fe41f5248794fa4a2c92573ff6e/image.png",
+            "details": {
+              "size": 85478,
+              "image": {
+                "width": 1891,
+                "height": 943
+              }
+            },
+            "fileName": "image.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "ay751rnq5vnl"
+          }
+        },
+        "id": "jkyS8UHh5WXTmLvb0bLhf",
+        "type": "Asset",
+        "createdAt": "2025-07-30T17:43:58.741Z",
+        "updatedAt": "2025-07-30T17:44:10.212Z",
+        "environment": {
+          "sys": {
+            "id": "dev",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2025-07-30T17:44:10.212Z",
+        "firstPublishedAt": "2025-07-30T17:44:10.212Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7CC9wUtpFBV7Y7QtnD55EJ"
+          }
+        },
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/ay751rnq5vnl/environments/dev/assets/jkyS8UHh5WXTmLvb0bLhf"
+      },
+      "fields": {
+        "title": {
+          "en-US": "image"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/ay751rnq5vnl/jkyS8UHh5WXTmLvb0bLhf/09a189dd6ad558c060561df1ec5b5bbe/image.png",
+            "details": {
+              "size": 13581,
+              "image": {
+                "width": 1019,
+                "height": 474
+              }
+            },
+            "fileName": "image.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    }
+  ]
+}
