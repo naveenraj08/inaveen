@@ -33,7 +33,7 @@ export default async function Home() {
     {
       "collection": {
         "sys": {
-          "publishedVersion_exists": true
+          "publishedAt_exists": true
         }
       },
       "listCollection": {
