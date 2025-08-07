@@ -17,6 +17,8 @@ export const ServiceItem = ({ data }: ServiceItemProp) => {
 
     const { id, serviceName, serviceDescription, link } = data;
 
+    console.log(data);
+
     return (
         <li>
             <MotionEffect key={id} slide={{ direction: 'down', }} fade zoom inView delay={0.5 + id * 0.1}>

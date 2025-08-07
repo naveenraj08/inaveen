@@ -15,8 +15,8 @@ export const revalidate = 60;
 type BannerContentResponse = {
   heroBanner?: any;
   aboutMe?: any;
-  services?: any;
-  projects?: any;
+  servicesCollection?: any;
+  projectsCollection?: any;
 };
 
 export default async function Home() {
@@ -29,18 +29,42 @@ export default async function Home() {
   );
 
   const serviceData: BannerContentResponse = await graphQLClient.request(
-    getServiceContent
+    getServiceContent,
+    {
+      "where": {
+        "sys": {
+          "publishedVersion_exists": true
+        }
+      },
+      "serviceListCollectionWhere2": {
+        "sys": {
+          "publishedAt_exists": true
+        }
+      }
+    }
   );
 
   const projectData: BannerContentResponse = await graphQLClient.request(
-    getProjectsContent
+    getProjectsContent,
+    {
+      "collection": {
+        "sys": {
+          "publishedAt_exists": true
+        }
+      },
+      "listCollection": {
+        "sys": {
+          "publishedAt_exists": true
+        }
+      },
+      "limit": 5
+    }
   );
-
 
   const banner = data?.heroBanner;
   const aboutContent = aboutData?.aboutMe;
-  const serviceContent = serviceData?.services;
-  const projectContent = projectData?.projects;
+  const serviceContent = serviceData?.servicesCollection;
+  const projectContent = projectData?.projectsCollection;
 
   return (
     <>

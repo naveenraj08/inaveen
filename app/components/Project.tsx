@@ -25,7 +25,7 @@ type Media = {
 
 export const Project = ({ data }: ProjectContentProps) => {
   const {
-    title, projectListCollection } = data;
+    title, projectListCollection } = data?.items[0];
 
   return (
     <section className="py-10 lg:py-20 bg-white section">
@@ -39,11 +39,15 @@ export const Project = ({ data }: ProjectContentProps) => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 mt-10 lg:mt-20">
 
+
           {
-            projectListCollection.items.map((item: Project, index) => (
-              <AnimatedPinDemo key={index} data={item} />
-            ))
+            projectListCollection?.items.length > 0
+              ? projectListCollection.items.map((item: Project, index) => (
+                <AnimatedPinDemo key={index} data={item} />
+              ))
+              : "We are working on it, please check back later."
           }
+
         </div>
       </div>
     </section>

@@ -1,23 +1,25 @@
 import { gql } from "graphql-request";
 
 export const getProjectsContent = gql`
-    query Projects {
-        projects(id: "78ykm2DMFRJd90ivABW3oO") {
+  query ProjectsCollection(
+    $collection: ProjectsFilter
+    $listCollection: ProjectItemFilter
+    $limit: Int
+  ) {
+    projectsCollection(where: $collection) {
+      items {
+        title
+        projectListCollection(where: $listCollection, limit: $limit) {
+          items {
             title
-            projectListCollection {
-            items {
-                ... on ProjectItem {
-                title
-                link
-                sample {
-                    url
-                    width
-                    height
-                }
-                descriptions
-                }
+            descriptions
+            link
+            sample {
+              url
             }
-            }
+          }
         }
+      }
     }
+  }
 `; 

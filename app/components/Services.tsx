@@ -16,7 +16,9 @@ type ServiceContent = {
 };
 
 type ServiceContentProps = {
-  data: ServiceContent;
+  data: {
+    items?: ServiceContent[];
+  }
 };
 
 export const Services = ({ data }: ServiceContentProps) => {
@@ -24,7 +26,9 @@ export const Services = ({ data }: ServiceContentProps) => {
   const {
     title,
     serviceListCollection,
-  } = data;
+  } = data?.items[0];
+
+  console.log();
 
   return (
     <section className="py-10 lg:py-20 pt-0 bg-white section">
@@ -37,9 +41,13 @@ export const Services = ({ data }: ServiceContentProps) => {
 
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 pt-10">
           {
-            serviceListCollection?.items.map((item: ServiceItem, index) => (
+
+            serviceListCollection?.items.length > 0
+              ? serviceListCollection?.items.map((item: ServiceItem, index) => (
               <ServiceItem key={index} data={item} />
             ))
+
+              : "We are working on it, please check back later."
           }
         </ul>
       </div>

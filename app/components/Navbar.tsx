@@ -75,32 +75,27 @@ export const Navbar = () => {
           </svg>
         </Link>
       </div>
-      <ul className="flex items-center gap-5">
-        {/* <li className="inline-block">
-          <a href="/" className="text-white text-sm p-1">
+      <ul className="flex items-center gap-5 ml-10">
+        <li className="inline-block">
+          <a href="/" className={`${changeNav ? 'text-black' : 'text-white'} text-sm p-1`}>
             Home
           </a>
         </li>
         <li className="inline-block">
-          <a href="/about" className="text-white text-sm p-1">
+          <a href="/about" className={`${changeNav ? 'text-black' : 'text-white'} text-sm p-1`}>
             About
           </a>
         </li>
         <li className="inline-block">
-          <a href="/project" className="text-white text-sm p-1">
-            Project
+          <a href="/project" className={`${changeNav ? 'text-black' : 'text-white'} text-sm p-1`}>
+            Projects
           </a>
         </li>
         <li className="inline-block">
-          <a href="/service" className="text-white text-sm p-1">
-            Service
-          </a>
-        </li>
-        <li className="inline-block">
-          <a href="/contact" className="text-white text-sm p-1">
+          <a href="/contact" className={`${changeNav ? 'text-black' : 'text-white'} text-sm p-1`}>
             Contact
           </a>
-        </li> */}
+        </li>
       </ul>
     </nav>
   );
