@@ -31,12 +31,12 @@ export default async function Home() {
   const serviceData: BannerContentResponse = await graphQLClient.request(
     getServiceContent,
     {
-      "where": {
+      "collection": {
         "sys": {
           "publishedVersion_exists": true
         }
       },
-      "serviceListCollectionWhere2": {
+      "listCollection": {
         "sys": {
           "publishedAt_exists": true
         }

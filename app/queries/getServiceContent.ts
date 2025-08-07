@@ -1,11 +1,14 @@
 import { gql } from "graphql-request";
 
 export const getServiceContent = gql`
-  query getServiceContent($where: ServicesFilter, $serviceListCollectionWhere2: ServiceItemFilter) {
-    servicesCollection(where: $where) {
+  query getServiceContent(
+    $collection: ServicesFilter
+    $listCollection: ServiceItemFilter
+  ) {
+    servicesCollection(where: $collection) {
       items {
         title
-        serviceListCollection(where: $serviceListCollectionWhere2) {
+        serviceListCollection(where: $listCollection) {
           items {
             ... on ServiceItem {
               serviceName
@@ -18,6 +21,5 @@ export const getServiceContent = gql`
       }
     }
   }
-
 `;
 
